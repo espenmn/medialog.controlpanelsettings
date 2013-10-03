@@ -1,11 +1,8 @@
 <?xml version="1.0"?>
 
 <registry>
- <records interface="bda.controlpanel.interfaces.IShopExtraSettings">
-      <value key="block_fields"></value>
- </records>
- <records interface="bda.controlpanel.interfaces.IBdaControlpanelSettings">
-      <value key="block_fields"></value>
+ <records interface="medialog.controlpanelsettings.interfaces.IExtraSettings">
+      <value key="extra_field"></value>
  </records>
 </registry>
  

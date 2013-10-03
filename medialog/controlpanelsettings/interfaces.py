@@ -20,14 +20,14 @@ class IExtraSettings(form.Schema):
         'extra',
         label=_(u'Extra Settings'),
         fields=[
-            'block_fields',
+            'extra_field',
             ],
         )
 
-    block_fields = schema.TextLine(
-        title=_(u"label_block_fields", default=u"Her tester jeg litt"),
-        description=_(u"help_block_fields",
-                      default=u"Block some fields")
+    extra_field = schema.TextLine(
+        title=_(u"label_extra_field", default=u"Showing off"),
+        description=_(u"help_extra_field",
+                      default=u"Some text here")
         )
 
 
